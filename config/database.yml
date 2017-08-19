@@ -6,11 +6,10 @@ development:
   password: 12345678
   username: root
 
-# production:
-#   # <<: *default
-#   adapter: postgresql
-#   database: localflavor-testing
-#   host: localhost
-#   port: 5432
-#   password: root
-#   username: root
+production:
+  adapter: postgresql
+  database: chat_app_development
+  host: localhost
+  port: 5432
+  password: 12345678
+  username: root
