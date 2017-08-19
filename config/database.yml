@@ -1,13 +1,16 @@
 development:
   adapter: postgresql
-  encoding: unicode
   database: chat_app_development
-  # user_name: 
-  # pass_word: 
+  host: localhost
+  port: 5432
+  password: 12345678
+  username: root
 
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: chat_app_development
-  # user_name: 
-  # pass_word: 
+# production:
+#   # <<: *default
+#   adapter: postgresql
+#   database: localflavor-testing
+#   host: localhost
+#   port: 5432
+#   password: root
+#   username: root
